@@ -5,7 +5,9 @@ import { setupCounter } from './counter'
 // import { charmander } from './bases/03-classes'
 // import { bulbasaur, pokemons } from './bases/02-objects'
 // import {name, templateString} from './bases/01-types';
-import { charmander } from './bases/04-injection'
+// import { charmander } from './bases/04-injection-dependencies'
+// import { charmander } from './bases/05-decorators'
+import { charmander } from './bases/06-decorators2'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
